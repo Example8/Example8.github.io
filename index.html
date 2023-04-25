@@ -39,30 +39,24 @@ h4{
   color: #f8f8f8; /* Sets the text color to black */
   padding: 20px; /* Adds some padding around the text */
 }
-p1{
-  background-color: #333333; /* Sets the background color to dark gray */
-  color: #f8f8f8; /* Sets the text color to black */
-  padding: 20px; /* Adds some padding around the text */
-
-}
 p{
   background-color: #333333; /* Sets the background color to dark gray */
   color: #f8f8f8; /* Sets the text color to black */
   padding: 20px; /* Adds some padding around the text */
-
-}
-p1{
-  float: right;
-  width: 60%;
-  height:  px; 
-  background: #333131;
-  padding: 30px;
+  text-align: justify; /* Aligns text properly */
 }
 
-h4{
-  float: right;
+h1{
+  float: left;
   width: 45%;
   height: 87px; 
+  background: #333131;
+  padding: 20px;
+}
+p{
+  float: right;
+  width: 30%;
+  height: 350px;
   background: #333131;
   padding: 20px;
 }
@@ -70,24 +64,30 @@ h4{
 img{
   float: right;
   width: 50%;
-  height: 250px; 
+  height: auto; /* Automatically adjusts height */
   background: #000000;
   padding:20px;
 }
 
-h1{
-  float: left, inline-start;
+.h4{
+  float: right;
   width: 45%;
   height: 87px; 
   background: #333131;
   padding: 20px;
 }
-p{
-  float: left, inline-end;
-  width: 30%;
-  height: 350px; /* only for demonstration, should be removed */
-  background: #333131;
-  padding: 20px;
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.project-container img {
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
 }
 
 /* Style the list inside the menu */
@@ -96,26 +96,7 @@ nav ul {
   padding: 0;
 }
 
-/* Style the footer */
-footer {
-  background-color: #0e0d0d;
-  padding: 10px;
-text-align: center;
-color: white;
-}
 
-  .project-container {
-	  display: flex;
-	  flex-wrap: wrap;
-	  justify-content: center;
-	  align-items: center;
-	  margin-top: 30px;
-}
-  .project-container img {
-	  max-width: 300px;
-	  height: auto;
-	  margin: 10px;
-}
 
 </style>
 </head>
