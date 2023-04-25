@@ -1,55 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Welcome to my first website </title>
-	<style>
-		body {
-			background-color: rgb(27, 27, 27);
-			color: white;
-		}
-		h1 {
-			font-size: 3em;
-			font-weight: bold;
-			text-align: center;
-		}
-        h2 {
-			font-size: 3em;
-			font-weight: bold;
-			text-align: left;
-		}
-        h3 {
-			font-size: 3em;
-			font-weight: bold;
-			text-align: center;
-		}
-		.project-container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			align-items: center;
-			margin-top: 30px;
-		}
-		.project-container img {
-			max-width: 300px;
-			height: auto;
-			margin: 10px;
-		}
-	</style>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+h1{
+  background-color: #333333; /* Sets the background color to dark gray */
+  color: #f8f8f8; /* Sets the text color to black */
+  padding: 20px; /* Adds some padding around the text */
+}
+h2{
+  background-color: #00000004; /* Sets the background color to dark gray */
+  color: #f8f8f8; /* Sets the text color to black */
+  padding: 20px; /* Adds some padding around the text */
+}
+h3{
+  background-color: #0a0a0a; /* Sets the background color to dark gray */
+  color: #f8f8f8; /* Sets the text color to black */
+  padding: 20px; /* Adds some padding around the text */
+}
+h4{
+  background-color: #333333; /* Sets the background color to dark gray */
+  color: #f8f8f8; /* Sets the text color to black */
+  padding: 20px; /* Adds some padding around the text */
+}
+p1{
+  background-color: #333333; /* Sets the background color to dark gray */
+  color: #f8f8f8; /* Sets the text color to black */
+  padding: 20px; /* Adds some padding around the text */
+
+}
+p{
+  background-color: #333333; /* Sets the background color to dark gray */
+  color: #f8f8f8; /* Sets the text color to black */
+  padding: 20px; /* Adds some padding around the text */
+
+}
+p1{
+  float: right;
+  width: 60%;
+  height:  px; 
+  background: #333131;
+  padding: 30px;
+}
+
+h4{
+  float: right;
+  width: 45%;
+  height: 87px; 
+  background: #333131;
+  padding: 20px;
+}
+
+img{
+  float: right;
+  width: 50%;
+  height: 250px; 
+  background: #000000;
+  padding:20px;
+}
+
+h1{
+  float: left, inline-start;
+  width: 45%;
+  height: 87px; 
+  background: #333131;
+  padding: 20px;
+}
+p{
+  float: left, inline-end;
+  width: 30%;
+  height: 350px; /* only for demonstration, should be removed */
+  background: #333131;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0e0d0d;
+  padding: 10px;
+text-align: center;
+color: white;
+}
+
+  .project-container {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  align-items: center;
+	  margin-top: 30px;
+}
+  .project-container img {
+	  max-width: 300px;
+	  height: auto;
+	  margin: 10px;
+}
+
+</style>
 </head>
 <body>
-	<h1>Welcome to my first website😊</h1>
-	<h2>About me</h2>
-	<p>Hello My name is Curtis, I am 36 Years old and just started on my journey <br>learning how to code after not finding a job i can relate to and working jobs <br> i didnt enjoy doing.
-    I started my journey coding in late Febuary of 2023.
-    </p>
-	
-    <h3>Projects with Dream making Ai Generated art</h3>
-    <div class="project-container">
-        <img src="./images/b.jpg" alt="Blur">
-		<img src="./images/g.jpg" alt="Space">
-		<img src="./images/p.jpg" alt="Splatter">
-		<img src="./images/h.jpg" alt="Tranquility">
-	</div>
-	
+<header>
+<h2>Welcome to my first website 😊</h2>
+</header>
+<section>
+<nav>
+</nav>
+<article>
+
+	<h4>How i started</h4>
+  <p1>I wanted something more in my life so i took action. i started looking at coding
+	and decided i to try something i have never done and jump into the world of coding i do admit
+	it has been hard at times and i have been challeneged to over come obstacles and it feels good.
+	i may not be the best but i am learning and growing everyday.
+  </p1>
+
+  <img src="./images/published.jpg">
+ 
+  <h1>About me</h1>
+  <p>Hello My name is Curtis, I am 36 Years old and just started learning <br>how to code after not finding a job i can relate to and working jobs <br> i didnt enjoy doing.
+  I started my journey coding in late Febuary of 2023.</p>
+ 
+  
+  <h3>Projects with Dream making Ai Generated art</h3>
+	  <div class="project-container">
+	  <img src="./images/b.jpg" alt="Blur">
+	  <img src="./images/g.jpg" alt="Space">
+	  <img src="./images/p.jpg" alt="Splatter">
+	  <img src="./images/h.jpg" alt="Tranquility">
+
+  
+
+</div>
 </body>
 </html>
